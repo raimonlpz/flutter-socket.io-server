@@ -1,0 +1,14 @@
+git init
+git add .
+git commit -m "message"
+git remote add origin "repository name"
+git push -u origin master
+
+git tag -a v1.0.0 -m "message"
+git push --tags
+
+
+// when project is already in git:
+git add .
+git commit -m "message"
+git push
